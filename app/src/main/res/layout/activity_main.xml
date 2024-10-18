@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginVertical="16dp">
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btn_move_activity_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity dengan Data"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btn_move_activity_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity dengan Object"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_with_result"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:backgroundTint="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/result_from_activity"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
